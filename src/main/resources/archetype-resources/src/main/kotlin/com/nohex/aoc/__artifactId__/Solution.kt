@@ -10,5 +10,5 @@ fun main() {
     println("${artifactId}, part 1: $solution")
 }
 
-private fun getInput(path: String) =
+fun getInput(path: String) =
     PuzzleInput(path).asSequence()
