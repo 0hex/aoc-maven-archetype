@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test
 internal class FooTest {
     @Test
     fun testExample() {
-        val input = PuzzleInput("example.txt").asSequence()
+        val input = getInput("example.txt")
         val sut = Foo(input)
         sut.getSolution() shouldBe 0
     }
