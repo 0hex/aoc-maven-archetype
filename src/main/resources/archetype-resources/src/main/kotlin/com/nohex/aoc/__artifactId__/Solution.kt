@@ -11,4 +11,4 @@ fun main() {
 }
 
 private fun getInput(path: String) =
-    PuzzleInput("input.txt").asSequence()
+    PuzzleInput(path).asSequence()
