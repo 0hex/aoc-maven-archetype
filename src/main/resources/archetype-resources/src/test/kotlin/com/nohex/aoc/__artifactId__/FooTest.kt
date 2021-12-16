@@ -1,6 +1,5 @@
 package com.nohex.aoc.${artifactId}
 
-import com.nohex.aoc.PuzzleInput
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test
 
